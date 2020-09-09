@@ -12,10 +12,18 @@ matrix:
       python: "3.7"
     - name: "Python 3.8-dev on Linux"
       python: "3.8-dev"
-    - name: "Python pypy2.7-6.0 on Linux"
-      python: "pypy2.7-6.0"
-    - name: "Python pypy2.7-6.0 on Linux"
-      python: "pypy2.7-6.0"
+    - name: "Python 2.7 on Linux"
+      arch: arm64
+      python: "2.7"
+    - arch: arm64
+      name: "Python 3.6 on Linux"
+      python: "3.6"
+    - arch: arm64
+      name: "Python 3.7 on Linux"
+      python: "3.7"
+    - arch: arm64
+      name: "Python 3.8-dev on Linux"
+      python: "3.8-dev"  
     - name: "Python 3.7 on macOS"
       os: osx
       osx_image: xcode11
